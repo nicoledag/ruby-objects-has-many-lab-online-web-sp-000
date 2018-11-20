@@ -23,7 +23,7 @@ attr_accessor :name
   end
 
   def self.post_count
-    post.artist.count
+    post.Artist.count
 
   end
 
