@@ -22,6 +22,9 @@ attr_accessor :name
     post.author = self
   end
 
+  def post_count
+    Post.all.count
+  end
 
 
 
