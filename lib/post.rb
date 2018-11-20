@@ -8,7 +8,7 @@ class Post
     @title = title
   end
 
-  def.self.all
+  def self.all
     @@all
   end
 
