@@ -7,6 +7,8 @@ attr_accessor :name
     @post = []
   end
 
-
+  def post
+    @post
+  end
 
 end
