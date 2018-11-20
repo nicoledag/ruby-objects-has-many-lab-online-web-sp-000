@@ -4,11 +4,11 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
-    @post = []
+    @posts = []
   end
 
   def posts
-    @post
+    @posts
   end
 
   def add_post
